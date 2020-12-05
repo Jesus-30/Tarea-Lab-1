@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/uno"
+        android:title="Inicio"
+
+        android:orderInCategory="1"
+        app:showAsAction="always"
+        />
+
+
+    <item
+        android:id="@+id/dos"
+        android:title="Hipotenusa"
+        android:icon="@drawable/ic_x"
+        android:orderInCategory="1"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/tres"
+        android:title=" Compu Smart"
+        android:icon="@drawable/ic_x"
+        android:orderInCategory="1"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/cuatro"
+        android:title="Acerca de"
+        android:icon="@drawable/ic_x"
+        android:orderInCategory="1"
+        app:showAsAction="never"
+        />
+</menu>
